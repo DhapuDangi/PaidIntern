@@ -1,0 +1,364 @@
+body {
+    background-color:lightcyan;
+    overflow: hidden;
+    margin: 0%;
+    z-index: -1; 
+}
+
+.btn{
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+} 
+.nav{
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    height: auto;
+    width: 100vw;
+   background-image: linear-gradient(#f8736f,
+    #05b9c6);
+  align-items: center;
+  border-radius: 5px;
+  padding: 3px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    justify-content: space-between;
+  
+}
+.nav-2{
+    display: flex;
+    width: 30vw;
+    justify-content:space-around;
+}
+#navlist{
+    display: flex;
+align-items: center;
+    justify-content: space-between;
+  width: 35vw;
+
+  margin-left: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding-right: 10px;
+
+    
+}
+#btn{
+    background-image: linear-gradient(#7675ce,
+    #a2a8ff);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+
+    padding: 5px 14px;
+}
+#btn:hover{
+    color: aliceblue;
+    background-image: linear-gradient(#bc3210,
+                #393c65);
+}
+
+
+button{
+background-image: linear-gradient(#7675ce,
+    #a2a8ff);
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+
+    padding: 5px 14px;
+}
+button:hover{
+    color: aliceblue;
+    background-image: linear-gradient(#bc3210,
+                #393c65);
+}
+#imgiist{
+  width: 100vw;
+  height: 100vh;
+  opacity: .2;
+
+  
+}
+#logo{
+    width: 3vw;
+    height: 3vw;
+    margin-right: 4px;
+border-radius: 100px;
+}
+#logoitem{
+    display: flex;
+    align-items: center;
+    margin: 6px;
+}
+
+.attribute{
+   
+    
+    color: white;
+    height:100px;
+    justify-content: space-between;
+    text-align: center;
+    margin: 5px 10px;
+    
+}
+
+#student{
+border-radius: 5px solid red;
+background-image: linear-gradient(to right, rgb(100, 163, 215), rgb(202, 166, 98));
+height: 90vh;
+display: flex;
+color: black;
+width: 33.3vw;
+justify-content: space-between;
+flex-direction: column;
+
+}
+.mg-y{
+    margin-bottom: 5vh;
+    border: 1.6px solid black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    padding: 4px 5px;
+    width: fit-content;
+    margin: auto;
+    
+        background-color: gradient;
+        background-image: none;
+        border-color: #28a745;
+   
+}
+.mg-y:hover{
+    background-image: linear-gradient(#f8736f,
+                #05b9c6);
+                border-color: black;
+}
+#hod{
+background-image: linear-gradient(to right, rgb(66, 142, 186),rgb(196, 72, 205));
+    height: 90vh;
+    display: flex;
+    color: black;
+    width: 33.3vw;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#faculty{
+/*background-image: linear-gradient(to right,rgb(201, 178, 102),rgb(71 181 225));*/
+background-color: lightskyblue;
+    height: 90vh;
+    width: 33.3vw;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 14px;
+    background-color:#4fb7d7;
+  }
+  
+  .container {
+    background-color: white;
+    width: 500px;
+    padding: 25px;
+    margin: 50px auto 0;
+    border-top: 5px lightcyan;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .container h2 {
+    font-size: 24px;
+    line-height: 24px;
+    padding: 30px;
+    text-align: center;
+  }
+  .container h1 {
+    font-size: 24px;
+    line-height: 24px;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .input-name {
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+  }
+  
+  .lock {
+    padding: 8px 11px;
+  }
+  
+  .name {
+    width: 45%;
+    padding: 8px 0 8px 40px;
+  }
+  
+  .input-name span {
+    margin-left: 35px;
+  }
+  
+  .text-name {
+    width: 100%;
+    padding: 8px 0 8px 40px;
+  }
+  
+  h2{
+     font-size:5px;
+     text-color:green;
+  }
+  
+  .input-name i {
+    position: absolute;
+    font-size: 18px;
+    color: blue;
+    border-right: 1px solid #cccccc;
+  }
+  
+  .email {
+    padding: 8px;
+  }
+  
+  .text-name,
+  .name {
+    border: 1px solid #cccccc;
+    outline: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .text-name:hover,
+  .name:hover {
+    background-color: #fafafa;
+  }
+  
+  .text-name:focus,
+  .name:focus {
+    border: 1px solid blue;
+  }
+  
+  .radio-button {
+    margin-right: 4px;
+  }
+  
+  .branch{
+      display: inline-block;
+      width: 50%;
+      height: 35px;
+      padding:0px 15px 
+
+  }
+  
+  .branch:hover,.branch:focus
+  {
+      color:blue;
+      background: #fafafa;
+      border-color: blue;
+      outline: none;
+  }
+  
+  .check{
+      margin-right: 15px;
+      position: relative;
+  }
+  
+  .check::before{
+      content: "";
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      margin-right: 8px;
+      vertical-align: -2px;
+      border: 2px solid #cccccc;
+      padding:2.5px;
+      background-color: transparent;
+      background-clip: content-box;
+      transition: all 0.2s ease;
+  }
+  
+  .check::after
+  {
+      border-right: 2px solid black;
+      border-top: 2px solid black;
+      content: "";
+      height: 20px;
+      left: 2px;
+      position: absolute;
+      top: 7px;
+      transform: scaleX(-1) rotate(135deg);
+      transform-origin: left top;
+      width: 7px;
+      display: none;
+  
+  }
+  .check-button{
+      border: 0;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+  }
+  
+  .check-button:hover +.check::before{
+      border-color:blue;
+  }
+  .check-button:checked +.check::before{
+      border-color: green;
+  }
+  
+  .check-button:checked +.check::after{
+      -moz-animation:check 0.8s ease 0s running;
+      -webkit-animation:check 0.8s ease 0s running;
+      animation: check 0.8s ease 0s running;
+      display:block;
+      width: 7px;
+      height: 20px;
+      border-color: rgb(9, 128, 0);
+  }
+  
+  .button
+  {
+      background-color: blue;
+      color: white;
+      height: 35px;
+      line-height: 35px;
+      width: 100%;
+      border: none;
+      outline: none;
+      font-size: 18px;
+      cursor: pointer;
+      
+  }
+  .button:hover{
+      background-color: green;
+  }
+  
+  .remember{
+    margin-bottom: 20px;
+  }
+  .register-link
+  {
+    margin-top: 20px;
+  }
+  .pname{
+    width: 60%;
+    padding: 8px 0 8px 40px;
+    outline: none;
+  }

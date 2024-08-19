@@ -1,0 +1,128 @@
+
+
+body {
+    background-color:black;
+    overflow: hidden;
+}
+
+.Main {}
+
+.nav{
+
+    display: flex;
+    color: black;
+    height: auto;
+    width: 100vw;
+   background-image: linear-gradient(#f16136,
+    #14d5c9);
+  align-items: center;
+  border-radius: 5px;
+  padding: 3px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    justify-content: space-between;
+  
+}
+#navlist{
+    display: flex;
+align-items: center;
+    justify-content: space-between;
+  width: 35vw;
+
+  margin-left: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#btn{
+    padding-right: 5px;
+}
+button{
+background-image: linear-gradient(#1b9bdb,
+    #1a7e97);
+    border-radius: 10px;
+    cursor: pointer;
+
+    padding: 5px 14px;
+}
+button:hover{
+    color: rgb(77, 129, 174);
+    background-image: linear-gradient(#b5644f,
+                #4c88db);
+}
+#imgiist{
+    /* background-repeat: no-repeat;
+  background-size: cover; */
+  width: 100vw;
+  height: 100vh;
+  opacity: .2;
+
+  
+}
+#logo{
+    width: 3vw;
+    height: 3vw;
+    margin-right: 4px;
+border-radius: 100px;
+}
+#logoitem{
+    display: flex;
+    align-items: center;
+    margin: 6px;
+}
+.from {
+    /* Background color changed here */
+    background-color: lightpink; /* Change this color as desired */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+form{
+    width:100vw;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+          border-radius: 5px;
+          border-top:2px solid #76d0ca;
+          border-bottom: 2px solid #6e6e06;
+          border-left:2px solid #575fce;
+          border-right: 2px solid #6596ad;
+            padding: 3px;
+            margin:2px;
+            background-color: black;
+            color: white;
+}
+
+.btn{
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+background-image: linear-gradient(#0dc7ff,
+    #15a761);
+    border-radius: 10px;
+    cursor: pointer;
+
+    padding: 5px 14px;
+}
+button:hover{
+    color: aliceblue;
+    background-image: linear-gradient(#ff0d0d,
+                #393c65);
+}
+
+
+
